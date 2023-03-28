@@ -1,0 +1,74 @@
+.bg-one{
+    background-image: url(https://i.ibb.co/n02YtpH/slide2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 80vh; */
+}
+.bg-two{
+    background-image: url(https://i.ibb.co/gFST8cT/slide1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 80vh; */
+}
+
+
+.overlay{
+    background: rgba(0,0,0,.4);
+    /* height: 80vh; */
+}
+
+/* .country-bg{
+    background-image: url(../../../public/country.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.city-bg{
+    background-image: url(../../../public/city.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.video-bg{
+    background-image: url("https://hfconsultancy.herokuapp.com/images/bg-works.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
